@@ -239,6 +239,13 @@ public function __construct()
 
 Berikut adalah dokumentasi visual pengujian performa fungsional aplikasi VueJS:
 
+<img width="959" height="539" alt="Cuplikan layar 2026-06-10 064707" src="https://github.com/user-attachments/assets/647bd2b4-77e1-4b5d-9591-f859ad2ce39e" />
+
+<img width="945" height="539" alt="Cuplikan layar 2026-06-10 064747" src="https://github.com/user-attachments/assets/0e6a9e4a-f7d1-457d-bcc8-fe05f707336a" />
+
+<img width="960" height="540" alt="Cuplikan layar 2026-06-10 070801" src="https://github.com/user-attachments/assets/6d72f60c-00f9-4916-a325-a3f484e622e4" />
+
+
 A. Tampilan Utama Aplikasi (Read)
 
 Aplikasi memanggil REST API server pada port :8080 dan berhasil menyajikan seluruh artikel dari database ke dalam tabel secara reaktif.
