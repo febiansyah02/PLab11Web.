@@ -1,8 +1,8 @@
-📝 Laporan Praktikum 11: Pemrograman Web 2 - Integrasi Frontend VueJS 3
+Laporan Praktikum 11: Pemrograman Web 2 - Integrasi Frontend VueJS 3
 
 Laporan ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Web 2 pada program studi Teknik Informatika, Universitas Pelita Bangsa. Praktikum kali ini berfokus pada implementasi arsitektur Decoupled Application dengan membangun Frontend API menggunakan VueJS 3 dan Axios sebagai client dari REST API backend CodeIgniter 4.
 
-👤 Identitas Mahasiswa:
+Identitas Mahasiswa:
 
 Nama: M. Febiansyah Mulyadi
 
@@ -12,7 +12,7 @@ Mata Kuliah: Pemrograman Web 2
 
 Dosen Pengampu: Agung Nugroho
 
-📂 Struktur Direktori Proyek
+Struktur Direktori Proyek
 
 Proyek Frontend didekatkan pada direktori lokal web server (C:\xampp\htdocs\lab8_vuejs) dengan pembagian berkas statis (Assets) yang teratur sebagai berikut:
 
@@ -27,7 +27,7 @@ lab8_vuejs/
 ```
 
 
-💻 Implementasi Kode Sumber
+Implementasi Kode Sumber
 
 1. File HTML Antarmuka (index.html)
 
@@ -210,7 +210,7 @@ createApp({
         }
     }
 
-🛠️ Improvisasi & Troubleshooting (CORS Bypass)
+Improvisasi & Troubleshooting (CORS Bypass)
 
 Selama proses pengerjaan praktikum, terjadi masalah keamanan browser di mana request POST/PUT dari VueJS diblokir oleh kebijakan keamanan CORS (Cross-Origin Resource Sharing).
 
@@ -235,7 +235,7 @@ public function __construct()
 }
 ```
 
-📸 Dokumentasi Hasil Pengujian CRUD
+Dokumentasi Hasil Pengujian CRUD
 
 Berikut adalah dokumentasi visual pengujian performa fungsional aplikasi VueJS:
 
@@ -266,6 +266,6 @@ D. Konfirmasi Hapus Artikel (Delete)
 Menampilkan modal dialog konfirmasi browser untuk memvalidasi penghapusan artikel sebelum data dibersihkan secara permanen.
 
 
-💡 Kesimpulan
+Kesimpulan
 
 Praktikum ini berhasil membuktikan keunggulan arsitektur modern Decoupled Application, di mana frontend (VueJS) dan backend (CodeIgniter 4) dapat bekerja secara terpisah dan berkomunikasi hanya lewat jembatan JSON data. Sistem reaktivitas VueJS terbukti mampu meningkatkan kenyamanan user experience (single page application feel) karena manipulasi data dapat berjalan cepat tanpa adanya pemuatan ulang (page reload) halaman browser.
